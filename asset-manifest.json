@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kp-pride/static/css/main.0c52319f.css",
+    "main.js": "/kp-pride/static/js/main.9a73d51b.js",
+    "static/js/453.8ab44547.chunk.js": "/kp-pride/static/js/453.8ab44547.chunk.js",
+    "static/media/Bar.avif": "/kp-pride/static/media/Bar.601fa1c2498d29b15460.avif",
+    "static/media/Hall.avif": "/kp-pride/static/media/Hall.5557a24fbf03d41a7711.avif",
+    "static/media/Floor.avif": "/kp-pride/static/media/Floor.dc5ab465f76c66b43d42.avif",
+    "static/media/Lobby.avif": "/kp-pride/static/media/Lobby.367b8819eef97b2a1e35.avif",
+    "static/media/Building.avif": "/kp-pride/static/media/Building.1c0213cb199f14b80702.avif",
+    "static/media/Standard.jpg": "/kp-pride/static/media/Standard.ffd8f8f6b76c78affa0b.jpg",
+    "static/media/Executive.jpg": "/kp-pride/static/media/Executive.fb3be6c2fdfe72ee5a1c.jpg",
+    "static/media/Super.jpg": "/kp-pride/static/media/Super.fd9506ed04b0349cc46d.jpg",
+    "index.html": "/kp-pride/index.html",
+    "main.0c52319f.css.map": "/kp-pride/static/css/main.0c52319f.css.map",
+    "main.9a73d51b.js.map": "/kp-pride/static/js/main.9a73d51b.js.map",
+    "453.8ab44547.chunk.js.map": "/kp-pride/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c52319f.css",
+    "static/js/main.9a73d51b.js"
+  ]
+}
