@@ -1,0 +1,44 @@
+.slider {
+  position: relative;
+  width: 100vw; /* Full viewport width */
+  height: 700px; /* Fixed height */
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%; /* Make images take the full width */
+  height: 700px; /* Fixed height for images */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+.indicators {
+  position: absolute;
+  bottom: 20px; /* Position indicators a bit higher */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.indicator {
+  width: 12px; /* Indicator size */
+  height: 12px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background: #3498db; /* Active indicator color */
+}
+
+.heading h1 {
+  position: absolute;
+  z-index: 100000;
+  font-family: acme;
+  color: white;
+  font-size: 140px;
+  top: 37vh;
+  left: 5vw;
+}

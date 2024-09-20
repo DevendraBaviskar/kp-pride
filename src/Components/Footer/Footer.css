@@ -1,0 +1,14 @@
+/* Footer.css */
+.footer {
+  text-align: center; /* Center the text */
+  padding: 20px 0; /* Space around the text */
+  background-color: #f8f9fa; /* Light background color */
+  border-top: 1px solid gray; /* Light border on top */
+  box-shadow: 0 4px 15px rgba(184, 184, 184, 0.2);
+  position: relative; /* To ensure it behaves correctly with flex layout */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  color: black;
+}
