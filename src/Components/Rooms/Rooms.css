@@ -1,4 +1,17 @@
+.rooms-heading {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  h2 {
+    font-family: acme;
+    font-size: 40px;
+  }
+}
+
 .image-container {
+  position: relative;
   display: flex;
   justify-content: space-around; /* Space out boxes */
   flex-wrap: wrap;
@@ -8,7 +21,7 @@
 .room-box {
   position: relative;
   width: calc(33.33% - 20px); /* Three boxes fit in one row, adjust spacing */
-  height: 300px; /* Adjust height as needed */
+  height: 370px; /* Adjust height as needed */
   margin: 10px; /* Margin between boxes */
   overflow: hidden;
   border: 1px solid #ccc;

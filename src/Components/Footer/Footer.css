@@ -1,5 +1,6 @@
 /* Footer.css */
 .footer {
+  margin: 0;
   text-align: center; /* Center the text */
   padding: 20px 0; /* Space around the text */
   background-color: #f8f9fa; /* Light background color */

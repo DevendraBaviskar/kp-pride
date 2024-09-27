@@ -1,0 +1,19 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 16px; /* Space between grid items */
+  padding: 20px; /* Padding around the grid */
+}
+
+.gallery-item {
+  overflow: hidden; /* Hide overflow for images */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.gallery-item img {
+  cursor: pointer;
+  width: 100%; /* Make image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove bottom space in images */
+}

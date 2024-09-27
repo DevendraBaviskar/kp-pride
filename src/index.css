@@ -3,11 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+::selection {
+  background-color: rgb(255, 174, 145);
+  color: black;
+}
 html,
 body {
-  height: 100%;
-  background-color: rgb(255, 241, 230);
+  height: 100vh;
+  width: 100vw;
 }
 
 .app {
@@ -17,7 +20,7 @@ body {
 }
 
 .navbar {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,11 +30,17 @@ body {
 .content {
   font-family: cursive;
   flex: 1; /* Take up remaining space */
-  padding-top: 100px; /* Adjust based on your navbar height */
+  padding-top: 50px; /* Adjust based on your navbar height */
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 .app .footer {
-  width: 100%;
+  width: 100vw;
+}
+/* react tostify css */
+.toastBody {
+  font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem !important;
 }

@@ -11,9 +11,12 @@ const Rooms = () => {
   };
   return (
     <div className="rooms">
+      <div className="rooms-heading">
+        <h2>Rooms</h2>
+      </div>
       <div className="image-container">
         <div className="room-box" onClick={() => handleNavigate("standard")}>
-          <h2>Standard Deluxe Room(1800/-)</h2>
+          <h2>Standard Deluxe Room(2000/-)</h2>
           <img src={Standard} alt="Standard Deluxe Room" />
           <p className="description">
             These attractively furnished and decorated special rooms are for
@@ -21,7 +24,7 @@ const Rooms = () => {
           </p>
         </div>
         <div className="room-box" onClick={() => handleNavigate("super")}>
-          <h2>Super Deluxe Room(2000/-)</h2>
+          <h2>Super Deluxe Room(2200/-)</h2>
           <img src={Super} alt="Super Deluxe Room" />
           <p className="description">
             Each room is air conditioned, elegantly designed, furnished with{" "}
@@ -29,7 +32,7 @@ const Rooms = () => {
           </p>
         </div>
         <div className="room-box" onClick={() => handleNavigate("executive")}>
-          <h2>Executive Premium Room(2000/-)</h2>
+          <h2>Executive Premium Room(2500/-)</h2>
           <img src={Executive} alt="Executive Premium Deluxe Room" />
           <p className="description">
             This is an <span className="span">Big</span> executive premium

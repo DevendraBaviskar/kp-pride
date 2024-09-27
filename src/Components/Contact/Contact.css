@@ -1,0 +1,114 @@
+body {
+  background-color: #f0f4f8; /* Light background color for contrast */
+  font-family: "Arial", sans-serif; /* Set a clean font */
+  margin: 0;
+  padding: 20px;
+}
+.contact {
+  height: 93vh;
+  width: 100vw;
+}
+.form-container {
+  background: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  width: 600px; /* Increased width */
+  margin-top: 70px; /* Centered with space around */
+  margin-bottom: 50px;
+  margin-left: 900px;
+  box-shadow: 0 10px 30px rgba(240, 72, 0, 0.2); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.form-container:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 15px 40px rgba(255, 77, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.form-heading {
+  text-align: center; /* Center heading */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+h2 {
+  color: #333; /* Dark text color for heading */
+  font-size: 28px; /* Increase heading size */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+.form-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444; /* Slightly darker color for labels */
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px; /* Comfortable padding */
+  border: 2px solid #ccc; /* Thicker border */
+  border-radius: 10px; /* Rounded corners */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* More space between inputs */
+  font-size: 16px; /* Increase font size */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: orangered; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+.form-textarea {
+  min-height: 100px; /* Set minimum height for the textarea */
+}
+
+.form-button {
+  background-color: #007bff; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Rounded corners for button */
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.form-button:hover {
+  background-color: orangered; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.contact-hotel_name {
+  height: 40vh;
+  width: 40vw;
+  color: white;
+  position: absolute;
+  top: 27vh;
+  left: 13vw;
+}
+.contact-hotel_name .heading {
+  position: relative;
+  font-size: 50px;
+  font-family: acme;
+}
+
+.contact-loading {
+  font-size: 39px;
+  position: absolute;
+  bottom: 24vh;
+  right: 20vw;
+  font-weight: bolder;
+  color: #3ffc00;
+}
+
+.contact-li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}

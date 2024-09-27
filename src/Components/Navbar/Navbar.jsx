@@ -15,6 +15,17 @@ function Navbar() {
         <ul>
           <li>
             <NavLink
+              to="/"
+              className="navlink"
+              style={({ isActive }) => ({
+                color: isActive ? "orangered" : "black",
+              })}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/rooms"
               className="navlink"
               style={({ isActive }) => ({
@@ -22,6 +33,28 @@ function Navbar() {
               })}
             >
               Rooms
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/restaurent"
+              className="navlink"
+              style={({ isActive }) => ({
+                color: isActive ? "orangered" : "black",
+              })}
+            >
+              Restaurent
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/bar"
+              className="navlink"
+              style={({ isActive }) => ({
+                color: isActive ? "orangered" : "black",
+              })}
+            >
+              Bar
             </NavLink>
           </li>
           <li>
@@ -38,12 +71,23 @@ function Navbar() {
           <li>
             <NavLink
               className="navlink"
-              to="/about-us"
+              to="/nearby-transport"
               style={({ isActive }) => ({
                 color: isActive ? "orangered" : "black",
               })}
             >
-              About us
+              NearBy-Transport
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="navlink"
+              to="/tourist-places"
+              style={({ isActive }) => ({
+                color: isActive ? "orangered" : "black",
+              })}
+            >
+              Tourist-Places
             </NavLink>
           </li>
           <li>
@@ -54,7 +98,7 @@ function Navbar() {
                 color: isActive ? "orangered" : "black",
               })}
             >
-              Contact
+              Booking
             </NavLink>
           </li>
         </ul>
